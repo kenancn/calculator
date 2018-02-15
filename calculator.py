@@ -8,21 +8,21 @@ main_module()
 def sub (sayi1,sayi2):
     print('{} + {} = '.format(sayi1,sayi2)
     toplam=sayi1+sayi2
-    return toplam
+    output_module(toplam)
 
 def extraction(sayi1,sayi2):
     print('{} + {} = '.format(sayi1,sayi2)
     cikarim=sayi1-sayi2
-    return cikarim
+    output_module(extraction)
 
 
 def division (num_1,num_2):
-	div=num_1/num_2
-	return div
+    div=num_1/num_2
+    output_module(division)
 	
 def multiplication (num_1,num_2):
-	mul=num_1*num_2
-	return mul
+    mul=num_1*num_2
+    output_module(multiplication)
 	  
 def input_module():
     num1=input("1. Sayiyi Giriniz: ")
