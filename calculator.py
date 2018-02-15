@@ -5,7 +5,7 @@ def main_module():
 
 main_module()
 
-def sub(sayi1,sayi2):
+def sub (sayi1,sayi2):
     print('{} + {} = '.format(sayi1,sayi2)
     toplam=sayi1+sayi2
     return toplam
